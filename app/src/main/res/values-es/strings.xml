@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MuseumizeMe</string>
+    <string name="create_user_error">Error de registro de usuario</string>
+    <string name="login_error">Error de Login</string>
+    <string name="reset_password_error">Error de recuperacion de contraseña</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="don_t_have_an_account_sign_up">No tienes una cuenta? Regístrate</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Inicia sesión</string>
+    <string name="forgot_your_password">¿Has olvidado la contraseña?</string>
+    <string name="continue_with_google">Continua con Google</string>
+    <string name="recover_password">Recupera la contraseña</string>
+    <string name="already_have_an_account_log_in">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="sign_up">Registrate</string>
+    <string name="add_museum">Añade Museo</string>
+    <string name="add">Añade</string>
+    <string name="cancel">Cancela</string>
+    <string name="description">Descripción</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="delete_museum">Elimina Museo</string>
+    <string name="are_you_sure_you_want_to_delete_the_museum">¿Estás seguro de que quieres eliminar el museo?</string>
+    <string name="accept">Acepta</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="are_you_sure_you_want_to_log_out">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="delete_icon">Icono Eliminar</string>
+    <string name="no_museums_found">No se encontraron museos.</string>
+    <string name="default_profile_image">Imagen de perfil por defecto</string>
+    <string name="there_are_empty_fields">Hay campos vacíos</string>
+    <string name="email_sent">Email Enviado</string>
+    <string name="error_sending_the_email">Error al enviar el email</string>
+    <string name="signup_success">Registro exitoso</string>
+    <string name="google_sign_in_failed">Google Sign In falllido</string>
+</resources>

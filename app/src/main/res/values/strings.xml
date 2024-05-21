@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">MuseumizeMe</string>
+    <string name="default_web_client_id" translatable="false">227976794373-tp0va4nq1c9bj6t84kvp7vq9eor3ai4c.apps.googleusercontent.com</string>
+    <string name="create_user_error">Create User error</string>
+    <string name="login_error">Login error</string>
+    <string name="reset_password_error">Reset Password error</string>
+    <string name="error" translatable="false">"Error: "</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="firebase" translatable="false">Firebase</string>
+    <string name="museumizeme" translatable="false">MuseumizeMe</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="o" translatable="false">-------- o --------</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="recover_password">Recover password</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in.</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_museum">Add Museum</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Description</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="delete_museum">Delete Museum</string>
+    <string name="are_you_sure_you_want_to_delete_the_museum">Are you sure you want to delete the museum?</string>
+    <string name="accept">Accept</string>
+    <string name="log_out">Log Out</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
+    <string name="logo" translatable="false">Logo</string>
+    <string name="delete_icon">Delete Icon</string>
+    <string name="no_museums_found">No museums found</string>
+    <string name="signin_error" translatable="false">"SignIn Error: "</string>
+    <string name="there_are_empty_fields">There are empty fields</string>
+    <string name="error_sending_the_email">Error sending the email</string>
+    <string name="signup_success">SignUp Success</string>
+    <string name="signup_error" translatable="false">"SignUp Error: "</string>
+    <string name="google_sign_in_failed">Google Sign In failed</string>
+    <string name="default_profile_image">Default Profile Image</string>
+    <string name="email_sent">Email Sent</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MuseumizeMe</string>
+    <string name="create_user_error">Error de registe d\'usuari</string>
+    <string name="login_error">Error de Login</string>
+    <string name="reset_password_error">Error de recuperació de contrasenya</string>
+    <string name="unknown_error">Error desconegut</string>
+    <string name="don_t_have_an_account_sign_up">No tens un compte? Registra\'t</string>
+    <string name="password">Contrasenya</string>
+    <string name="sign_in">Inicia sessió</string>
+    <string name="forgot_your_password">Has oblidat la contrasenya?</string>
+    <string name="continue_with_google">Continua amb Google</string>
+    <string name="recover_password">Recupera la contrasenya</string>
+    <string name="already_have_an_account_log_in">Ja tens un compte? Inicia sessió</string>
+    <string name="name">Nom</string>
+    <string name="surname">Cognom</string>
+    <string name="sign_up">Resgistre\'t</string>
+    <string name="add_museum">Afegeix Museu</string>
+    <string name="add">Afegeix</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="description">Descripció</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="delete_museum">Elimina Museu</string>
+    <string name="are_you_sure_you_want_to_delete_the_museum">Estàs segur que vols eliminar el museu?</string>
+    <string name="accept">Accepta</string>
+    <string name="log_out">Tanca sessió</string>
+    <string name="are_you_sure_you_want_to_log_out">Estàs segur que vols tancar la sessió?</string>
+    <string name="delete_icon">Icona Eliminar</string>
+    <string name="no_museums_found">No s\'han trobat museus.</string>
+    <string name="default_profile_image">Imatge de perfil per defecte</string>
+    <string name="there_are_empty_fields">Hi ha camps buits</string>
+    <string name="email_sent">Email Enviat</string>
+    <string name="error_sending_the_email">Error enviant l\'email</string>
+    <string name="signup_success">Registre amb èxit</string>
+    <string name="google_sign_in_failed">Google SIgn In fallit</string>
+</resources>

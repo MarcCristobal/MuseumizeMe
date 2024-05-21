@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "227976794373",
+    "project_id": "museumizeme",
+    "storage_bucket": "museumizeme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227976794373:android:518abbd434b6f4aba2a76c",
+        "android_client_info": {
+          "package_name": "cat.copernic.museumizeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227976794373-qi88scpfkh10n2908vr1oiin098iagk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cat.copernic.museumizeme",
+            "certificate_hash": "d62387a029efa2de17c4c34f0340934bad0cce56"
+          }
+        },
+        {
+          "client_id": "227976794373-tp0va4nq1c9bj6t84kvp7vq9eor3ai4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxpXlOpibAbi3WQZw8SCFb1uViewWJIIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227976794373-tp0va4nq1c9bj6t84kvp7vq9eor3ai4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
