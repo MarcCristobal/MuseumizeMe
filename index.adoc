@@ -1,0 +1,204 @@
+:author: Marc Cristobal
+:email: marc7cs@gmail.com // mcristobal@alumnat.copernic.cat
+:revdate: 21/05/2024
+:revnumber: la versió p.ex. 1.0
+:doctype: book
+:encoding: utf-8
+:lang: ca
+:toc: left
+:toclevels: 3
+:icons: font
+:imagesdir: ./images
+
+= MuseumizeMe
+
+image::MuseumizeMe.jpg[align="center"]
+
+== Introduction
+
+=== Project Description
+
+The idea of MuseumizeMe is an application that offers a museum discovery guide based on geolocation and category preferences. Using GPS positioning, the app identifies the user’s location and presents a list of nearby museums. Additionally, allows users to filter by name of category also. The applications will offer the following features:
+
+=== App Goals
+
+- Facilitate the discovery of nearby museums: Enable users to easily find nearby museums using geolocation.
+- Personalize the user experience: Offer an experience tailored to users' individual preferences through category filtering.
+- Provide detailed information about museums: Supply comprehensive and accurate information about each museum, including hours, prices, and location.
+- Encourage participation and interaction: Encourage users to share their museum experiences through integration with social media.
+
+=== Target
+
+The target audience for MuseumizeMe consists of young adults interested in culture and history, seeking a convenient way to discover and explore nearby museums, preferably through an easy-to-use and customizable app.
+
+== Features
+
+=== Login / Register Screen
+
+The first screen the user will see while opening the application. It will allow the user to register (only for plain users) or login instead, in case the user already has an account. It will be able to recover the password in case the user does not remember.
+
+.Covered requirements:
+- RF01 - Login
+- RF02 - Registration (only plain users)
+- RF03 - Recover password
+
+=== Home Feed
+
+A home feed where the user will see a complete list of the available museums. It will be possible to filter by name, and once the user clicks on a museum item it will redirect to the expanded information of the museum. In case the user has the admin role it will allow them to redirect to the create museum section. Is in this section where the user can logout.
+
+.Covered requirements:
+- RF01 - Logout
+- RF04 - Create new museum (only admin users)
+- RF05 - List museums
+- RF06 - Filter museums
+- RF07 - Expand museum information
+
+=== Museum Overview
+
+The whole museum information will be expanded such as its name, image, description and the GPS location. If the user has the admin role it will allow them to modify the museum entry or delete it also.
+
+.Covered requirements:
+- RF08 - Modify museum (only admin users)
+- RF09 - Delete museum (only admin users)
+
+=== Map
+
+This section will show a map that will show the locations of the different museums. Also, clicking on one of the pins in the map will redirect the user to the expanded museum information.
+
+.Covered requirements:
+- RF10 - View all GPS items
+
+=== Extra requirements
+
+The extra requirement that are going to be implemented in the application is Google authentication:
+
+- RF11 - Google authentication
+
+== Technical Documentation
+
+=== Roles functional requirements
+
+==== Admin
+- RF01 - Login and Logout
+- RF03 - Recover password
+- RF04 - Create new museum
+- RF05 - List museums
+- RF06 - Filter museums
+- RF07 - Expand museum information
+- RF08 - Modify museum
+- RF09 - Delete museum
+- RF10 - View all GPS items
+- RF11 - Google authentication
+
+==== User
+
+- RF01 - Login and Logout
+- RF02 - Registration
+- RF03 - Recover password
+- RF05 - List museums
+- RF06 - Filter museums
+- RF07 - Expand museum information
+- RF10 - View all GPS items
+- RF11 - Google authentication
+
+=== NoSQL database design
+
+image::DBDiagram.png[align="center"]
+
+== Programming
+
+=== Version control
+
+https://gitlab.com/MarcCristobal/museumizeme.git
+
+== Final
+
+=== Demo video
+
+https://drive.google.com/file/d/148zpKYE2kepvQhclXB21EGVkBQbuLB_H/view?usp=sharing
+
+=== Portfolio
+
+https://github.com/MarcCristobal
+
+=== Project Report
+
+https://drive.google.com/file/d/1Qscoz9I8gjjt4vVKhfPxFvuruXnLPtmK/view?usp=sharing
+
+== FOL
+
+=== SDG (“ODS”)
+
+The project covers the following SDG
+
+*4. Quality education*::
+
+The application covers this objective because museums are culture, history, and innovation. They are a source of wisdom, so the discovery of them is a source of knowledge and education for anyone.
+
+*10. Reduced Inequalities*::
+
+The application covers this objective because it democratizes access to museums, making it known to anyone where they can find them.
+
+=== Empathy Map
+
+*User*::
+- *Name:* Average user interested in culture and history.
+- *Age:* 25-45 years old.
+- *Profession:* Various professions, from students to professionals working in different fields.
+- *Experience:* Has a general interest in visiting museums to learn and enjoy cultural exhibitions.
+Needs: Seeks a convenient way to discover new museums and obtain relevant information about them.
+
+*Thoughts and Feelings*::
+- Curiosity to explore new museums and exhibitions.
+- Interest in learning about different cultures and historical periods.
+- Preference for an easy and uncomplicated experience when using the application.
+
+*What They See*::
+- Views the application as a tool to discover and explore nearby museums.
+- Expects a clean and user-friendly interface that allows easy navigation through the application and finding information about museums.
+
+*What They Say and Do*::
+- Expresses enthusiasm for sharing their museum experiences with friends and family.
+- Uses the application to plan visits to museums during their travels or weekends.
+
+*Pains*::
+- Gets frustrated if the application doesn't accurately display the location of museums or if the information about them is scarce.
+- Dislikes spending a lot of time searching for information about opening hours, ticket prices, etc.
+
+*Gains*::
+- Finds it satisfying to discover new museums easily and quickly.
+- Appreciates the ability to filter museums by categories of interest to personalize their cultural experiences.
+
+=== SWOT Analysis (DAFO)
+
+*Strengths*::
+- *Geolocation functionality:* The app's ability to utilize geolocation provides users with a convenient way to discover nearby museums.
+- *Intuitive interface:* An intuitive and user-friendly interface makes the app accessible to a wide variety of users.
+- *Category filtering:* The category filtering feature allows users to customize their cultural experiences based on their specific interests.
+- *Integration with Google Authentication:* Integration with Google Authentication enhances security and convenience of login for users.
+
+*Weaknesses*::
+- *Dependency on geolocation accuracy:* If geolocation does not work properly, users may experience difficulty finding nearby museums.
+- *Limitations in museum information:* If information about museums is incomplete or outdated, users may feel frustrated or discouraged.
+- *Lack of feedback feature:* The lack of a direct user feedback feature may hinder the identification and resolution of issues efficiently.
+- *Limitation in administrative functions:* Museum management capabilities might be limited in terms of actions administrators can perform in the app.
+
+*Opportunities*::
+- *Collaborations with museums:* Establishing partnerships with museums to obtain updated and detailed information can enhance the quality of data provided to users.
+- *International expansion:* The app could expand internationally to allow users to discover museums in different countries and cities.
+- *Integration with social media:* Integration with social media would enable users to share their museum experiences and increase the visibility and reach of the app.
+- *Development of additional features:* Adding features such as user reviews, personalized recommendations, and special events at museums can enhance user experience and increase engagement.
+
+*Threats*::
+- *Competition from similar apps:* Competition from other museum discovery apps may make it challenging to acquire and retain users.
+- *Technological changes:* Rapid changes in technology may require frequent updates to maintain app functionality and relevance.
+- *Privacy and security issues:* Issues related to user data privacy and security may damage the reputation and trust in the app.
+- *Geolocation data access restrictions:* Changes in privacy policies or restrictions on geolocation data access may negatively affect app functionality.
+
+== Future Lines
+
+- *Finish the pending tasks:* Due to lack of time, there are some functionalities that are not absolutely finished.
+- *Improved user interface:* Continuously enhance the user interface to make it even more intuitive and user-friendly.
+- *Personalized notifications:* Implement personalized notifications to inform users about new nearby museums or special events.
+- *Favorites feature:* Add a "favorites" feature that allows users to save their preferred museums for future visits.
+- *Additional languages:* Include support for additional languages to make the app more accessible to users from different regions.
